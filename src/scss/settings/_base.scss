@@ -1,0 +1,16 @@
+/*--------------------------------
+  Base
+---------------------------------*/
+
+body {
+  padding: 0px;
+  font-family: $montserrat;
+  color: $main-snow;
+  background-color: $main-black;
+  text-align: center;
+}
+
+.content {
+  @extend .centerxy;
+}
+
